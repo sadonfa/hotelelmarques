@@ -1,0 +1,132 @@
+
+img{
+    display: block;
+    margin: 0px auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.single-testimonial{
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    width: 50%;
+    border: 1px solid green;
+}
+
+h3 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.rattiong-caption{
+    text-align: center;
+    margin-top: 15px;
+    color:#333;
+    font-size: 18px;
+}
+
+.name {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.testimonial-area .testimonial-ratting {
+    margin-bottom: 21px; }
+    .testimonial-area .testimonial-ratting i {
+      color: #FBBA42;
+      display: inline-block; }
+
+form{
+    display: block;
+    margin: 20px;
+}
+
+input{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+textarea{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+input[type='submit']{
+    padding: 10px;
+    width: 50%;
+    margin-top: 25px;
+    background-color: #333;
+    color: white;
+}
+
+input[type='submit']:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+  
+/* ESTRELLA */
+
+form > p {
+    text-align: center;
+}
+
+.clasificacion{
+    direction: rtl;/* right to left */
+    unicode-bidi: bidi-override;/* bidi de bidireccional */
+    margin-top: 14px;
+}
+.clasificacion > label{ 
+    display: contents;    
+    color:grey;
+    font-size: 35px;
+}
+
+.clasificacion > input[type = "radio"]{ 
+    display:none;
+}
+
+.clasificacion > label:hover,
+.valor{
+    color:orange;
+}
+.clasificacion > label:hover ~ label{
+    color:orange;
+}
+.clasificacion > input[type = "radio"]:checked ~ label{
+    color:orange;
+}
+
+.valorFinal{
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.valor{    
+    color: orange;
+    font-size: 45px;    
+}
