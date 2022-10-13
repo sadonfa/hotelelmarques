@@ -196,11 +196,9 @@ $data = $db->query("SELECT * FROM testimonio");
                                 </div>
                                 <!-- Single Select Box -->
                                 <div class="single-select-box pt-45 mb-30">
-                                    <input type='submit' class="btn select-btn" value="Reservar">
+                                    <input type='submit' class="btn select-btn" value="Reservar" />
                                 </div>
-
-
-                            </div>
+                            </div>                        
                         </form>
                     </div>
                 </div>
